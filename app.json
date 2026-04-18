@@ -1,18 +1,28 @@
 {
   "expo": {
     "name": "Grape",
-    "slug": "cinavar07grape-httpssharegooglenzlsun8w6qwww1i6i",
+    "slug": "cinavar07grape",
     "version": "1.0.0",
-    "extra": {
-      "eas": {
-        "projectId": "2c216cb1-a6e2-467a-9539-bdcc62310773"
-      }
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
     },
     "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
       "package": "com.cinavar07.grape"
-    },
-    "runtimeVersion": {
-      "policy": "appVersion"
     }
   }
 }
