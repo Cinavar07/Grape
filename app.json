@@ -1,20 +1,16 @@
 {
   "expo": {
     "name": "Grape",
-    "slug": "cinavar07grape-httpssharegooglenzlsun8w6qwww1i6i",
+    "slug": "grape-app-final",
     "version": "1.0.0",
     "owner": "cryaboutit",
     "android": {
-      "package": "com.cinavar07.grape",
-      "versionCode": 1
+      "package": "com.cinavar07.grape"
     },
     "extra": {
       "eas": {
         "projectId": "2c216cb1-a6e2-467a-9539-bdcc62310773"
       }
-    },
-    "cli": {
-      "appVersionSource": "remote"
     }
   }
 }
