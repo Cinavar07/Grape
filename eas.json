@@ -3,9 +3,9 @@
     "production": {
       "android": {
         "buildType": "apk",
-        "gradleCommand": "assembleRelease",
-        "image": "latest"
-      }
+        "image": "ubuntu-22.04-jdk-17-ndk-r25b"
+      },
+      "prebuild": true
     }
   }
 }
