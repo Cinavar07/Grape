@@ -2,15 +2,17 @@
   "expo": {
     "name": "Grape",
     "slug": "cinavar07grape-httpssharegooglenzlsun8w6qwww1i6i",
-    "owner": "cryaboutit",
     "version": "1.0.0",
+    "owner": "cryaboutit",
+    "platforms": ["android"],
+    "android": {
+      "package": "com.cinavar07.grape",
+      "versionCode": 1
+    },
     "extra": {
       "eas": {
         "projectId": "2c216cb1-a6e2-467a-9539-bdcc62310773"
       }
-    },
-    "android": {
-      "package": "com.cinavar07.grape"
     }
   }
 }
