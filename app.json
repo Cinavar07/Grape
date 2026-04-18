@@ -3,26 +3,17 @@
     "name": "Grape",
     "slug": "cinavar07grape",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
+    "extra": {
+      "eas": {
+        "projectId": "2c216cb1-a6e2-467a-9539-bdcc62310773"
+      }
     },
     "android": {
+      "package": "com.cinavar07.grape",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.cinavar07.grape"
+      }
     }
   }
 }
